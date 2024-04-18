@@ -1,1 +1,52 @@
 /* Add screen styles below */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#navbar{
+    background-color: #20236C;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+#navitem{
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+#title{
+    padding-right: 75%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #D9D9D9;
+    padding: 10px;
+    gap: 10px
+  }
+
+
+.icon{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20%;
+}
+
+.one{
+    background-color: #C94319;;
+}
+
+.two{
+    background-color: #CE9931;
+}
+
+.three{
+    background-color: #209815;
+}
